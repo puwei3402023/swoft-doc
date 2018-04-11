@@ -47,6 +47,11 @@ app.stop
 
 > 作为核心服务组件，会自动启用
 
+>\swoft\app\Middlewares 在这个下面创建文件
+
+>\swoft\config\beans\base.php 配置在这里去添加
+
+
 ```php
 'eventManager'    => [
     'class'     => \Swoft\Event\EventManager::class,
